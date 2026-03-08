@@ -38,7 +38,7 @@ console.log(favoriteSubjectSentence);
 console.log("Well, it was nice to talk to you. Have a nice day!")
 
 
-//Day 2 
+
 
 
 //Day2 String Formatting  Methods
