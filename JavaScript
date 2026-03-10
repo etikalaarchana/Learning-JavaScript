@@ -120,7 +120,7 @@ console.log(learningIsFunSentence.indexOf("learning"));
 console.log("I hope you enjoyed learning today.");
 
 
-//Day 4 
+
 /Day 4 Build a String Inspector 
 
 
@@ -153,8 +153,6 @@ console.log(`The ending punctuation mark is a "${endPunctuation}"`);
 
 console.log("Workshop complete! You now know how to use includes() and slice().");
 
-
-//Day 5 Build a String Formatter
 
 
 
