@@ -188,8 +188,6 @@ console.log(camelCasedVersion);
 
 
 
-//Day 5 
-
 
 
 //Day 5 Build a String Formatter
