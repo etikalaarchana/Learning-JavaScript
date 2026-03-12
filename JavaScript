@@ -225,7 +225,7 @@ console.log(camelCasedVersion);
 
 
 
-//Day 7 Build a Logic Checker App
+//Day 6 Build a Logic Checker App
 const hasDeveloperJob = true;
 
 if (hasDeveloperJob) {
