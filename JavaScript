@@ -247,7 +247,7 @@ if (timmyAge >= 16) {
 }
 
 
-//Day 5 Build a String Formatter
+//Day 7 Build a String Formatter
 
 
 const userInput = "   Hello World!   ";
