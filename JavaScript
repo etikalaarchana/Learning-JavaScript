@@ -338,6 +338,12 @@ console.log("It was fun learning about the different Math methods with you!");
 
 
 
+//Day 13
+
+
+
+
+
 
 
 
