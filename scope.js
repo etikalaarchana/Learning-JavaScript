@@ -24,17 +24,20 @@ fun();
 // block scope
 
 let temp = 30;
+var coolingTemp;
+var heatTemp;
 if(temp > 25)
 {
-    let coolingatemp  = temp - 25;
-    console.log("Sever room needss to cooled by ",coolingatemp);
+    coolingTemp  = temp - 25;
+    console.log("Sever room needss to cooled by ",coolingTemp);
 }
 else
 {
-    let heatTemp = 25 - temp;
+    heatTemp = 25 - temp;
     console.log("sever room needs to be heated by ",heatTemp);
 }
 
 console.log(temp);
-
+console.log(coolingTemp);
+console.log(heatTemp);
 
