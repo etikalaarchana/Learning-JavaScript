@@ -1,6 +1,6 @@
 // global scope
 
-/*let a;
+let a;
 function fun()
 {
     console.log(a);
@@ -8,7 +8,7 @@ function fun()
 a = 100;
 console.log(a);
 fun();
-*/
+
 
 //function scope
 function fun()
@@ -17,4 +17,24 @@ function fun()
     console.log(b);
 }
 fun();
-console.log(b);
+
+
+
+
+// block scope
+
+let temp = 30;
+if(temp > 25)
+{
+    let coolingatemp  = temp - 25;
+    console.log("Sever room needss to cooled by ",coolingatemp);
+}
+else
+{
+    let heatTemp = 25 - temp;
+    console.log("sever room needs to be heated by ",heatTemp);
+}
+
+console.log(temp);
+
+
