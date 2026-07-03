@@ -1,5 +1,4 @@
- /* let car;
-  car = {
+/*  car = {
    name: "BMW",
    cost: 75.6,
    mileage: 8.6,
@@ -27,7 +26,7 @@ console.log(car.mileage);
 
 car.start();
 car.accelerate();
-car.stop();  */
+car.stop();  
 
 
 
@@ -55,6 +54,21 @@ dancing: function(){
 };
 console.log(student.age);
 
-student.dancing()
+student.dancing()*/
 
 
+//pass by value and pass by reference
+
+
+//pass by value
+ let C1;
+ C1 = {
+    name: "kiya",
+    cost: 87.5,
+    mileage: 8.9
+};
+console.log(C1);
+
+let C2;
+ C2 = C1;
+console.log(C2);
