@@ -1,4 +1,4 @@
-  let car;
+ /* let car;
   car = {
    name: "BMW",
    cost: 75.6,
@@ -27,4 +27,34 @@ console.log(car.mileage);
 
 car.start();
 car.accelerate();
-car.stop();
+car.stop();  */
+
+
+
+let student = {
+    name: "Archana",
+    grade: 10,
+    age: 21,
+
+
+coding: function(){
+   console.log("student stared coding");
+
+},
+singing: function(){
+    console.log("student is singing");
+
+},
+
+dancing: function(){
+    console.log("student is dancing");
+
+}
+
+
+};
+console.log(student.age);
+
+student.dancing()
+
+
