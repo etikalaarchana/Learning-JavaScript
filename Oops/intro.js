@@ -60,7 +60,17 @@ student.dancing()*/
 //pass by value and pass by reference
 
 
-//pass by value
+
+
+
+//pass by vaule
+let a = 10;
+let b;
+b = a;
+console.log(a);
+console.log(b);
+
+//pass by reference
  let C1;
  C1 = {
     name: "kiya",
@@ -72,3 +82,8 @@ console.log(C1);
 let C2;
  C2 = C1;
 console.log(C2);
+
+
+C2.name = "BMW";
+console.log(C2.name);
+console.log(C1.name);
